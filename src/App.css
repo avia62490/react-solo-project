@@ -56,6 +56,26 @@
   text-align: center;
 }
 
+.email_button {
+  width: 280px;
+  height: 35px;
+  position: relative;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+
+
+.email_icon {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .footer {
   position: absolute;
   left: 25vw;
