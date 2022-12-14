@@ -1,8 +1,17 @@
-.App {
-  text-align: center;
+.page {
+  /* text-align: center; */
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color:gold;
+  color:floralwhite;
+  font-family: "Inter", "Arial";
+  font-style: normal;
+  height: 100vh;
+  /* padding: 20px; */
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,17 +31,46 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.body {
+  position: absolute;
+  left: 25vw;
+  top: 310px;
+  background-color: #1A1B21;
+  width: 320px;
+  height: 450px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  left: 25vw;
+  top: 760px;
+  background-color: #161619;
+  width: 320px;
+  height: 30px;
+  text-align: center;
+}
+
+.profile_pic {
+  position: absolute;
+  left: 25vw;
+  top: 30px;
+  border-radius: 10px 10px 0px 0px;
+  width: 320px;
+  height: 280px;
 }
